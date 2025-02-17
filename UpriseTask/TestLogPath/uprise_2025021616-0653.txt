@@ -1,0 +1,27 @@
+_______________________
+Timestamp - 2/16/2025 4:06:54 PM +01:00 | Level - Error
+_______________________
+elapsed : "2"
+parameters : ""
+commandType : Text
+commandTimeout : 30
+newLine : "
+"
+commandText : "CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);"
+EventId : { Id: 20102, Name: "Microsoft.EntityFrameworkCore.Database.Command.CommandError" }
+SourceContext : "Microsoft.EntityFrameworkCore.Database.Command"
+Application : "UPRISE_TASK"
+MachineName : "DESKTOP-21H06B0"
+CurrentManagedThreadId : 1
+OSVersion : "Microsoft Windows NT 10.0.19045.0"
+Version : "5.0.17"
+UserName : "ivans"
+ProcessId : 20496
+ProcessName : "dotnet"
+-------------------------------------------

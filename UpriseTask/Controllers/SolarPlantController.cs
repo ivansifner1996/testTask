@@ -13,7 +13,7 @@ using UpriseTask.Mappings.DTO;
 
 namespace UpriseTask.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SolarPlantController : ControllerBase

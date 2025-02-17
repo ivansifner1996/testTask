@@ -13,7 +13,7 @@ using UpriseTask.models;
 
 namespace UpriseTask.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductionSummaryController : ControllerBase

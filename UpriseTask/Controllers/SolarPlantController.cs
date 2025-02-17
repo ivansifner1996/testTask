@@ -13,7 +13,7 @@ using UpriseTask.Mappings.DTO;
 
 namespace UpriseTask.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class SolarPlantController : ControllerBase
@@ -51,7 +51,7 @@ namespace UpriseTask.Controllers
 
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetSolarPlant), new { id = plant.Id });
+            return Ok(plant.MapEntityToBusinessObject());
         }
 
 
